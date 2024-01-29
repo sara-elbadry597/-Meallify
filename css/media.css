@@ -1,0 +1,158 @@
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .home{
+        width: 100%;
+    }
+    
+    .home-content
+     {
+        width: 50%;
+    }
+    .home-img{
+        width: 40%;
+    }
+     .card
+     {
+        width:calc(calc(100% - var(--gap) * 2) / 3);
+    }
+    .chef-cards .photo::before{
+        width: 100%;
+    }
+   .nav ul{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    gap: 15px;
+    transform: translateX(100%);
+    background-color: white;
+    transition: all 400ms;
+   }
+   .nav ul li{
+    padding: 15px 0;
+    
+   }
+   .menu{
+    display: block;
+   }
+   .close{
+    display: block;
+    padding: 10px 15px 5px;
+   }
+  
+   .inner{
+    width: calc(calc(100% - 20) / 2);
+    order: 1;
+   }
+   .get-in-touch{
+    width: calc(calc(100% - 20) / 2);
+    order: 1;
+   }
+   .subscribe{
+    width: 100%;
+    
+   }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .nav-menu {
+        width: 50%;
+    }
+    .d-flex{
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .home{
+        width: 100%;
+    }
+    .home-content{
+        text-align: center;
+        width: 100%;
+    }
+    .home-img{
+        width: 100%;
+    }
+    .home-content .button-menu{
+        justify-content: center;
+    }
+    .button-menu .reserve{
+        border-radius: 100vh;
+    }
+    .home-content p{
+        width: 100%;
+    }
+    .chefs .card
+    {
+       width: calc(calc(100% - var(--gap)) / 2);
+   }
+   .chef-cards .photo::before{
+    width: 100%;
+}
+.footer {
+    width: 100%;
+}
+.info .bg{
+    padding: 30px;
+    width: 100%;
+}
+form{
+width: 100%;
+}
+.input .message{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 768px) {
+    .chefs .card
+    {
+       width: 100%;
+   }
+   
+   .gallery-photos {
+    flex-direction: column;
+}
+
+.gallery-photos .picture {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.layer{
+    width: 100%;
+}
+.footer {
+    width: 100%;
+}
+.info .bg{
+    padding: 30px;
+    width: 100%;
+}
+.inner {
+    width: calc(calc(100% - 20) / 2);
+    order: 1;
+   }
+   .get-in-touch{
+    width: calc(calc(100% - 20) / 2);
+    order: 1;
+   }
+   .subscribe{
+    width: 100%;
+    
+   }
+.footer{
+    width: 100%;
+    
+}
+
+
+}
+
+
+
+
+   
